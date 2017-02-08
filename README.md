@@ -4,8 +4,8 @@ You can generate a new image with a default user via
 
 ```
  $ sudo apt install -y ubuntu-image kpartx
- $ bzr branch lp:~om26er/+junk/snapweb-kvm-runner
- $ cd snapweb-kvm-runner
+ $ git clone https://github.com/om26er/ubuntu-core-default-user-image-scripts.git
+ $ cd ubuntu-core-default-user-image-scripts
  $ sudo ./create-image.sh
 ```
 
